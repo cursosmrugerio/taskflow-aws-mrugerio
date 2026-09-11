@@ -32,7 +32,7 @@ public class InfoController {
     // public, y no por capricho: OpenApiConfig la referencia para que el documento de Swagger
     // anuncie la MISMA version que responde /info. Al ser static final con literal es constante de
     // compilacion, asi que se puede usar dentro de una anotacion. Un numero, un solo sitio.
-    public static final String VERSION = "3.0.0";
+    public static final String VERSION = "3.0.1";
 
     @SecurityRequirements   // publico: lo consulta el smoke test del deploy, sin credenciales
     @Operation(summary = "Nombre y versión del servicio",
