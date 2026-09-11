@@ -41,7 +41,7 @@ hooks:
 
   # Ya se copiaron los files: ajustar dueño de /opt/taskflow y registrar la unit.
   AfterInstall:
-    - location: scripts/permisos.sh
+    - location: scripts/no-existe.sh
       timeout: 60
       runas: root
 
